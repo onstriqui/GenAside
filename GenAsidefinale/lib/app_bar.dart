@@ -4,7 +4,7 @@ import 'package:genasidefinale/constants.dart';
 import 'package:genasidefinale/screens/scrollpage.dart';
 import 'package:genasidefinale/screens/donate.dart';
 import 'package:genasidefinale/screens/login.dart';
-
+import 'package:genasidefinale/screens/signup.dart';
 
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -130,8 +130,10 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    // Add your button functionality here
-                    print("Log In Button Pressed!");
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => signup()),
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     primary: c.vert,

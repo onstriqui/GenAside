@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:genasidefinale/constants.dart';
 import 'package:genasidefinale/screens/scrollpage.dart';
 import 'package:genasidefinale/screens/login.dart';
+import 'package:genasidefinale/screens/signup.dart';
 
 class landingpage extends StatelessWidget {
 
@@ -71,8 +72,10 @@ class landingpage extends StatelessWidget {
             right: c.centerPositionw - (c.screenwidth - 40) / 2,
             child: ElevatedButton(
               onPressed: () {
-                // Add your button functionality here
-                print("Sign Up Button Pressed!");
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => signup()),
+                );
               },
               style: ElevatedButton.styleFrom(
                 primary: c.beige,

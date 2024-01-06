@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:genasidefinale/app_bar.dart';
 import 'package:genasidefinale/constants.dart';
 
@@ -69,9 +70,8 @@ class donate extends StatelessWidget {
             left: c.screenwidth/ 2- c.screenwidth/6.5,
             child: ElevatedButton(
               onPressed: () {
-                // Add your button functionality here
-                print("Sign Up Button Pressed!");
-              },
+                launch("https://www.croissant-rouge.tn");
+                },
               style: ElevatedButton.styleFrom(
                 primary: c.rouge,
                 onPrimary: c.beige1,

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:genasidefinale/constants.dart';
 import 'package:genasidefinale/screens/landingpage.dart';
+import 'package:genasidefinale/screens/signup.dart';
 
 class login extends StatelessWidget {
   @override
@@ -197,7 +198,7 @@ class login extends StatelessWidget {
                           onTap: () {
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) => landingpage()),
+                              MaterialPageRoute(builder: (context) => signup()),
                             );
                           },
                           child: Text(

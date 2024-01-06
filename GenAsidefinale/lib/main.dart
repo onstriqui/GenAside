@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:genasidefinale/screens/brand1.dart';
 import 'package:genasidefinale/screens/landingpage.dart';
 import 'package:genasidefinale/screens/scrollpage.dart';
 import 'package:genasidefinale/screens/brand.dart';
