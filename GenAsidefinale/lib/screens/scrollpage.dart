@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:genasidefinale/constants.dart';
 import 'package:genasidefinale/app_bar.dart';
+import 'package:genasidefinale/screens/brand.dart';
 
 
 class ImageBox extends StatefulWidget {
@@ -17,7 +18,16 @@ class _ImageBoxState extends State<ImageBox> {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
+    constant c = constant(context);
+    return GestureDetector(
+      onTap: () {
+        // Handle logo click
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => brand()),
+        );
+      },
+      child: Card(
       margin: EdgeInsets.all(10.0), // Adjust margin as needed
       elevation: 4.0, // Adjust elevation as needed
       child: Column(
@@ -25,9 +35,10 @@ class _ImageBoxState extends State<ImageBox> {
         children: [
           Image.asset(
             widget.imagePath,
-            fit: BoxFit.cover,
-            height: 200, // Adjust height as needed
+            fit: BoxFit.fill,
+            width: c.screenwidth,// Adjust height as needed
           ),
+
           SizedBox(height: 8.0), // Add some space between the image and text
           Row(
             mainAxisAlignment: MainAxisAlignment.start, // Align items in the center
@@ -56,6 +67,7 @@ class _ImageBoxState extends State<ImageBox> {
           ),
         ],
       ),
+    ),
     );
   }
 }
@@ -64,12 +76,10 @@ class _ImageBoxState extends State<ImageBox> {
 //----------------------------------------------------------------------------------------------
 
 class scrollpage extends StatelessWidget {
-  final constant c;
-
-  scrollpage(this.c);
 
   @override
   Widget build(BuildContext context) {
+    constant c = constant(context);
     return Scaffold(
       appBar: CustomAppBar(),
       body:

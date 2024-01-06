@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:genasidefinale/constants.dart';
+import 'package:genasidefinale/screens/scrollpage.dart';
+import 'package:genasidefinale/screens/login.dart';
 
 class landingpage extends StatelessWidget {
-  final constant c; // Declare a final variable to store Constant
-
-  landingpage(this.c); // Constructor that takes Constant as a parameter
 
   @override
   Widget build(BuildContext context) {
+    constant c = constant(context);
     return Scaffold(
       body: Stack(
         children: [
@@ -41,8 +41,10 @@ class landingpage extends StatelessWidget {
             right: c.centerPositionw - (c.screenwidth - 40) / 2,
             child: ElevatedButton(
               onPressed: () {
-                // Add your button functionality here
-                print("Log In Button Pressed!");
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => login()),
+                );
               },
               style: ElevatedButton.styleFrom(
                 primary: c.vert,
@@ -107,15 +109,23 @@ class landingpage extends StatelessWidget {
                       color: c.vert1,
                     ),
                   ),
-                  Text(
-                    "Guest",
-                    style: TextStyle(
-                      fontSize: c.screenheight * 0.02,
-                      fontWeight: FontWeight.bold,
-                      color: c.vert1,
-                      decoration: TextDecoration.underline,
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => scrollpage()),
+                      );
+                    },
+                    child: Text(
+                      "Guest",
+                      style: TextStyle(
+                        fontSize: c.screenheight * 0.02,
+                        fontWeight: FontWeight.bold,
+                        color: c.vert1,
+                        decoration: TextDecoration.underline,
+                      ),
                     ),
-                  ),
+                  )
                 ],
               ),
             ),

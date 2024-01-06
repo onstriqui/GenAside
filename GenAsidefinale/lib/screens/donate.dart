@@ -3,12 +3,10 @@ import 'package:genasidefinale/app_bar.dart';
 import 'package:genasidefinale/constants.dart';
 
 class donate extends StatelessWidget {
-  final constant c; // Declare a final variable to store Constant
-
-  donate(this.c); // Constructor that takes Constant as a parameter
 
   @override
   Widget build(BuildContext context) {
+    constant c = constant(context);
     return Scaffold(
       appBar: CustomAppBar(),
       body: Stack(
