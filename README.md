@@ -21,15 +21,17 @@ GenAside is an application designed to empower individuals to make informed and 
 
 Key Features:
 
-Brand Identification:
+**Brand Identification:**
 
 GenAside helps users identify brands linked to the Israeli occupation of Palestine.
 It employs a comprehensive database that highlights companies with documented connections to Israel.
-Detailed Information:
+
+**Detailed Information:**
 
 The application provides detailed insights into how these brands support Israel.
 Users can access information on financial contributions, partnerships, and other forms of support, offering a nuanced understanding.
-Alternatives Suggestion:
+
+**Alternatives Suggestion:**
 
 GenAside doesn't just stop at highlighting problematic brands; it offers users ethical alternatives.
 Users can discover and support brands committed to ethical business practices and social responsibility.
@@ -37,7 +39,8 @@ Boycott Impact Analysis:
 
 The app goes beyond information dissemination; it analyzes and showcases the potential impact of the boycott on these companies.
 Users gain a clear understanding of how their choices contribute to collective efforts in advocating for justice.
-Why GenAside:
+
+**Why GenAside:**
 
 - Transparency and Accountability:
 GenAside operates on the principles of transparency and accountability, aiming to hold brands responsible for their actions.
