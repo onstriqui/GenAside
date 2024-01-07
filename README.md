@@ -8,9 +8,9 @@ It aims at providing detailed information on how these brands exactly support is
 - [Introduction](#introduction)
 - [Features](#features)
 - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Usage](#usage)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -43,6 +43,7 @@ Users gain a clear understanding of how their choices contribute to collective e
 **Why GenAside:**
 
 - Transparency and Accountability:
+<<<<<<< HEAD
 GenAside operates on the principles of transparency and accountability, aiming to hold brands responsible for their actions.
 
 - Consumer Empowerment:
@@ -53,6 +54,18 @@ The app serves as a platform for collective advocacy, allowing users to contribu
 
 - Educational Resource:
 GenAside acts as an educational resource, fostering awareness and understanding of the complexities surrounding the Israeli-Palestinian conflict.
+=======
+  GenAside operates on the principles of transparency and accountability, aiming to hold brands responsible for their actions.
+
+- Consumer Empowerment:
+  By providing detailed information, GenAside empowers consumers to align their purchasing decisions with their values, fostering a sense of agency.
+
+- Collective Advocacy:
+  The app serves as a platform for collective advocacy, allowing users to contribute to positive change through their everyday choices.
+
+- Educational Resource:
+  GenAside acts as an educational resource, fostering awareness and understanding of the complexities surrounding the Israeli-Palestinian conflict.
+>>>>>>> ons
 
 **Join GenAside and Make Your Choices Count!**
 
@@ -72,6 +85,7 @@ Also we have below the sample images of the UI design that integrates elements t
 Before you begin, please ensure you have met the following requirements:
 
 1. **Flutter SDK:**
+<<<<<<< HEAD
   - Install the Flutter SDK by following the official [Flutter installation guide](https://flutter.dev/docs/get-started/install).
 
 2. **Dart SDK:**
@@ -88,6 +102,24 @@ Before you begin, please ensure you have met the following requirements:
 5. **Git (Optional, for contributors):**
   - If you plan to contribute to the project, it's recommended to have Git installed on your machine.
   - Install Git by following the instructions on the [official Git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+=======
+- Install the Flutter SDK by following the official [Flutter installation guide](https://flutter.dev/docs/get-started/install).
+
+2. **Dart SDK:**
+- Flutter relies on the Dart programming language. Make sure you have the Dart SDK installed, which usually comes bundled with Flutter.
+
+3. **IDE (Integrated Development Environment):**
+- We recommend using [Visual Studio Code](https://code.visualstudio.com/) with the [Flutter and Dart extensions](https://flutter.dev/docs/get-started/editor?tab=vscode) for an optimal development experience.
+- Alternatively, you can use [Android Studio](https://developer.android.com/studio) with the Flutter plugin.
+
+4. **Device/Emulator:**
+- To run and test your Flutter app, you need either a physical device connected to your development machine or a configured emulator.
+- Follow the instructions in the [Flutter documentation](https://flutter.dev/docs/get-started/install) to set up a device or emulator.
+
+5. **Git (Optional, for contributors):**
+- If you plan to contribute to the project, it's recommended to have Git installed on your machine.
+- Install Git by following the instructions on the [official Git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+>>>>>>> ons
 
 
 ### Installation
