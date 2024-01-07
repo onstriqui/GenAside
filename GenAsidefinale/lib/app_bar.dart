@@ -6,6 +6,7 @@ import 'package:genasidefinale/screens/donate.dart';
 import 'package:genasidefinale/screens/login.dart';
 import 'package:genasidefinale/screens/signup.dart';
 import 'package:genasidefinale/screens/profile.dart';
+import 'package:genasidefinale/screens/contact.dart';
 
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -200,8 +201,10 @@ class CBottomAppBar extends StatelessWidget implements PreferredSizeWidget {
           ),
           InkWell(
             onTap: () {
-              // Your action when the third icon is pressed
-              Navigator.of(context).pushNamed('/brand.dart');
+              Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => contact()),
+              );
             },
             child: Image.asset(
               'assets/contact_us.png', // Replace with your image path

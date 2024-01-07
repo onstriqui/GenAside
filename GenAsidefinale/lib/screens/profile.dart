@@ -48,7 +48,7 @@ class profile extends StatelessWidget {
                 backgroundImage: AssetImage('assets/profile.jpg'),
               ),
             ),
-          ),
+          ),// houni l code bch yetbadel de telle sorte melouel tethatech taswira yaani gris w ki tenszel aleha ijik changer la photo
           Container(
             child: Column(
               children: [
@@ -90,7 +90,7 @@ class profile extends StatelessWidget {
                       ),
                     ),
                   ),
-                ),
+                ),// hedha bch yethat fih l username ml bd
                 Align(
                   alignment: Alignment.topLeft,
                   child:
@@ -129,7 +129,7 @@ class profile extends StatelessWidget {
                       ),
                     ),
                   ),
-                ),
+                ),// hedha bch yethat fih l mdp ml bd
                 Align(
                   alignment: Alignment.topLeft,
                   child:
@@ -168,7 +168,7 @@ class profile extends StatelessWidget {
                       ),
                     ),
                   ),
-                ),
+                ),// hedha bch yethat fih l bled ml bd
               ],
             ),
           ),
