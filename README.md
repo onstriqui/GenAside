@@ -65,7 +65,6 @@ GenAside acts as an educational resource, fostering awareness and understanding 
 
 - Educational Resource:
   GenAside acts as an educational resource, fostering awareness and understanding of the complexities surrounding the Israeli-Palestinian conflict.
->>>>>>> ons
 
 **Join GenAside and Make Your Choices Count!**
 
@@ -119,7 +118,7 @@ Before you begin, please ensure you have met the following requirements:
 5. **Git (Optional, for contributors):**
 - If you plan to contribute to the project, it's recommended to have Git installed on your machine.
 - Install Git by following the instructions on the [official Git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
->>>>>>> ons
+
 
 
 ### Installation
