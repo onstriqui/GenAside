@@ -5,6 +5,7 @@ import 'package:genasidefinale/screens/scrollpage.dart';
 import 'package:genasidefinale/screens/donate.dart';
 import 'package:genasidefinale/screens/login.dart';
 import 'package:genasidefinale/screens/signup.dart';
+import 'package:genasidefinale/screens/profile.dart';
 
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -169,8 +170,9 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
 class CBottomAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
+    constant c = constant(context);
     return BottomAppBar(
-      color: const Color(0xFF547354),
+      color:  c.vert1,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -207,8 +209,10 @@ class CBottomAppBar extends StatelessWidget implements PreferredSizeWidget {
           ),
           GestureDetector(
             onTap: () {
-              // Your action when the circular avatar is pressed
-              Navigator.of(context).pushNamed('/brand');
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => profile()),
+              );
             },
             child: CircleAvatar(
               radius: 30,
