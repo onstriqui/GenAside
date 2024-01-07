@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "585359063342",
+    "project_id": "genaside-fa5b4",
+    "storage_bucket": "genaside-fa5b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585359063342:android:c87c1bbc67653c526f22bf",
+        "android_client_info": {
+          "package_name": "com.example.genasidefinale"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsjbYnVWr9kYswQXe4JNLpytcxvM2vmhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

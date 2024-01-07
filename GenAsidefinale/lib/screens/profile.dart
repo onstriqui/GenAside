@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:genasidefinale/constants.dart';
 import 'package:genasidefinale/app_bar.dart';
@@ -174,6 +175,24 @@ class profile extends StatelessWidget {
           ),
         ],
       ),//stack
+      floatingActionButton: Positioned(
+        bottom: c.screenheight / 13,
+        right: c.screenwidth / 2 - 20,
+        child: FloatingActionButton(
+          onPressed: () async {
+            // Perform the logout action here
+            await FirebaseAuth.instance.signOut();
+            // Redirect to the login screen or any other screen after logout
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(builder: (context) => landingpage()),
+            );
+          },
+          child: Icon(Icons.exit_to_app),
+          backgroundColor: c.rouge,
+        ),
+      ),
+
       bottomNavigationBar: CBottomAppBar(),
     );
   }
