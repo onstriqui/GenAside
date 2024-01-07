@@ -57,13 +57,19 @@ GenAside acts as an educational resource, fostering awareness and understanding 
 **Join GenAside and Make Your Choices Count!**
 
 GenAside invites users to join a community of conscious consumers, advocating for justice through their purchasing decisions. Together, we can make a meaningful impact and contribute to positive change in the world. Download GenAside today and be part of the movement for ethical and responsible consumerism.
-## Getting Started
 
-Provide instructions on how to get started with your project. This section typically includes details on prerequisites, installation, and basic usage.
+## UI Design
+For this project, we used Figma to have a mockup of the UI/UX Design.
+You can access the figma template in via [this link](https://www.figma.com/proto/RrVgXYD1drzgJq9wyqXeca/GenAside?type=design&node-id=67-47&t=cllQVyJGpb1Y0vfi-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=67%3A47&mode=design).
+Also we have below the sample images of the UI design that integrates elements that characterize the Palestinian country all in a minimalistic and easy to use style.
+![](/assets/ui1.png)
+![](/assets/ui2.png)
+
+## Getting Started
 
 ### Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+Before you begin, please ensure you have met the following requirements:
 
 1. **Flutter SDK:**
   - Install the Flutter SDK by following the official [Flutter installation guide](https://flutter.dev/docs/get-started/install).
@@ -85,11 +91,6 @@ Before you begin, ensure you have met the following requirements:
 
 
 ### Installation
-
-Provide step-by-step instructions on how to install your project.
-
 ```bash
 # Example installation commands
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
-npm install
+git clone https://github.com/onstriqui/GenAside1.git
