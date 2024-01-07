@@ -51,17 +51,35 @@ The app serves as a platform for collective advocacy, allowing users to contribu
 - Educational Resource:
 GenAside acts as an educational resource, fostering awareness and understanding of the complexities surrounding the Israeli-Palestinian conflict.
 
+**Join GenAside and Make Your Choices Count!**
+
+GenAside invites users to join a community of conscious consumers, advocating for justice through their purchasing decisions. Together, we can make a meaningful impact and contribute to positive change in the world. Download GenAside today and be part of the movement for ethical and responsible consumerism.
 ## Getting Started
 
 Provide instructions on how to get started with your project. This section typically includes details on prerequisites, installation, and basic usage.
 
 ### Prerequisites
 
-List any software or dependencies that users need to have installed before they can use your project.
+Before you begin, ensure you have met the following requirements:
 
-- Prerequisite 1
-- Prerequisite 2
-- ...
+1. **Flutter SDK:**
+  - Install the Flutter SDK by following the official [Flutter installation guide](https://flutter.dev/docs/get-started/install).
+
+2. **Dart SDK:**
+  - Flutter relies on the Dart programming language. Make sure you have the Dart SDK installed, which usually comes bundled with Flutter.
+
+3. **IDE (Integrated Development Environment):**
+  - We recommend using [Visual Studio Code](https://code.visualstudio.com/) with the [Flutter and Dart extensions](https://flutter.dev/docs/get-started/editor?tab=vscode) for an optimal development experience.
+  - Alternatively, you can use [Android Studio](https://developer.android.com/studio) with the Flutter plugin.
+
+4. **Device/Emulator:**
+  - To run and test your Flutter app, you need either a physical device connected to your development machine or a configured emulator.
+  - Follow the instructions in the [Flutter documentation](https://flutter.dev/docs/get-started/install) to set up a device or emulator.
+
+5. **Git (Optional, for contributors):**
+  - If you plan to contribute to the project, it's recommended to have Git installed on your machine.
+  - Install Git by following the instructions on the [official Git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
 
 ### Installation
 
