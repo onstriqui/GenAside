@@ -59,7 +59,7 @@ class donate extends StatelessWidget {
               width: c.screenwidth / 1.5,
               height: c.screenwidth/1.8,
               child: const Text(
-                'To help the cause further, you can donate money, medication, or clothes to the people of Israel through the Red Crescent Page',
+                'To help the cause further, you can donate money, medication, or clothes to the people of Palestine through the Red Crescent Page',
                 style: TextStyle(fontWeight: FontWeight.bold,),
                 textAlign: TextAlign.justify,
               ),

@@ -9,6 +9,14 @@ import 'package:genasidefinale/screens/scrollpage.dart';
 class profile extends StatelessWidget {
   final TextEditingController _usernameController = TextEditingController();
 
+  late String email;
+
+
+  profile() {
+    final User? user = FirebaseAuth.instance.currentUser;
+    email = user?.email ?? "Username";
+  }
+
   @override
   Widget build(BuildContext context) {
     constant c = constant(context);
@@ -73,7 +81,7 @@ class profile extends StatelessWidget {
                     child: TextField(
                       controller: _usernameController,
                       decoration: InputDecoration(
-                        hintText: 'Username',
+                        hintText: email,
                         hintStyle: TextStyle(
                           color: Colors.black,
                         ),
@@ -131,66 +139,24 @@ class profile extends StatelessWidget {
                     ),
                   ),
                 ),// hedha bch yethat fih l mdp ml bd
-                Align(
-                  alignment: Alignment.topLeft,
-                  child:
-                  Container(
-                    margin: EdgeInsets.only(top: c.screenheight/75, left: 22 ),
-                    child: const Text(
-                      'Country',
-                      style: TextStyle(fontWeight: FontWeight.bold,),
-                      textAlign: TextAlign.justify,
-                    ),
-                  ),
-                ),
-                Container(
-                  margin: EdgeInsets.only(top: c.screenheight/120 ),
-                  child: Container(
-                    width: c.screenwidth - 40,
-                    height: c.screenheight * 0.05 ,
-                    child: TextField(
-                      controller: _usernameController,
-                      decoration: InputDecoration(
-                        hintText: 'Country',
-                        hintStyle: TextStyle(
-                          color: Colors.black,
-                        ),
-                        suffixIcon: Icon(
-                          Icons.edit,
-                          color: c.rouge, // Adjust the color as needed
-                        ),
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(15),
-                          borderSide: BorderSide(
-                            color: Colors.red, // Adjust the color as needed
-                            width: 1,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                ),// hedha bch yethat fih l bled ml bd
+
               ],
             ),
           ),
         ],
       ),//stack
-      floatingActionButton: Positioned(
-        bottom: c.screenheight / 13,
-        right: c.screenwidth / 2 - 20,
-        child: FloatingActionButton(
-          onPressed: () async {
-            // Perform the logout action here
-            await FirebaseAuth.instance.signOut();
-            // Redirect to the login screen or any other screen after logout
-            Navigator.pushReplacement(
-              context,
-              MaterialPageRoute(builder: (context) => landingpage()),
-            );
-          },
-          child: Icon(Icons.exit_to_app),
-          backgroundColor: c.rouge,
-        ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () async {
+          // Perform the logout action here
+          await FirebaseAuth.instance.signOut();
+          // Redirect to the login screen or any other screen after logout
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(builder: (context) => landingpage()),
+          );
+        },
+        child: Icon(Icons.exit_to_app),
+        backgroundColor: c.rouge,
       ),
 
       bottomNavigationBar: CBottomAppBar(),
