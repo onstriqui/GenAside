@@ -10,13 +10,10 @@ It aims at providing detailed information on how these brands exactly support is
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 GenAside is an application designed to empower individuals to make informed and ethical choices by providing comprehensive information on brands associated with the Palestinian occupation. Our mission is to shed light on the relationships between companies and the Israeli government, enabling users to make conscientious decisions aligned with their values.
+
 ## Features
 
 Key Features:
