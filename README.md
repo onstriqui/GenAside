@@ -124,5 +124,5 @@ Before you begin, please ensure you have met the following requirements:
 ### Installation
 ```bash
 # Example installation commands
-git clone https://github.com/onstriqui/GenAside1.git
+git clone https://github.com/onstriqui/GenAside.git
 
