@@ -7,6 +7,8 @@ It aims at providing detailed information on how these brands exactly support Is
 
 - [Introduction](#introduction)
 - [Features](#features)
+  - [Why GenAside](#why-genaside)
+  - [Join GenAside and Make Your Choices Count](#join-genaside-and-make-your-choices-count)
 - [UI Design](#ui-design)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -27,30 +29,30 @@ GenAside is an application designed to empower individuals to make informed and 
 - The application provides detailed insights into how these brands support Israel.
 - Users can access information on financial contributions, partnerships, and other forms of support, offering a nuanced understanding.
 
-3. **Alternatives Suggestion:**
+3. **Alternative Suggestions:**
 
 - GenAside doesn't just stop at highlighting problematic brands; it offers users ethical alternatives.
 - Users can discover and support brands committed to ethical business practices and social responsibility.
 
-_Boycott Impact Analysis:_
+4. **Boycott Impact Analysis:**
 - The app goes beyond information dissemination; it analyzes and showcases the potential impact of the boycott on these companies.
 - Users gain a clear understanding of how their choices contribute to collective efforts in advocating for justice.
 
-4. **Why GenAside:**
+### Why GenAside:
 
-- _Transparency and Accountability:_
-GenAside operates on the principles of transparency and accountability, aiming to hold brands responsible for their actions.
+1. **Transparency and Accountability:**
+- GenAside operates on the principles of transparency and accountability, aiming to hold brands responsible for their actions.
 
-- _Consumer Empowerment:_
-By providing detailed information, GenAside empowers consumers to align their purchasing decisions with their values, fostering a sense of agency.
+2. **Consumer Empowerment:**
+- By providing detailed information, GenAside empowers consumers to align their purchasing decisions with their values, fostering a sense of agency.
 
-- _Collective Advocacy:_
-The app serves as a platform for collective advocacy, allowing users to contribute to positive change through their everyday choices.
+3. **Collective Advocacy:**
+- The app serves as a platform for collective advocacy, allowing users to contribute to positive change through their everyday choices.
 
-- _Educational Resource:_
-GenAside acts as an educational resource, fostering awareness and understanding of the complexities surrounding the Israeli-Palestinian conflict.
+4. **Educational Resource:**
+- GenAside acts as an educational resource, fostering awareness and understanding of the complexities surrounding the Israeli-Palestinian conflict.
 
-5. **Join GenAside and Make Your Choices Count!**
+### Join GenAside and Make Your Choices Count!
 
 - GenAside invites users to join a community of conscious consumers, advocating for justice through their purchasing decisions. Together, we can make a meaningful impact and contribute to positive change in the world. Download GenAside today and be part of the movement for ethical and responsible consumerism.
 
@@ -84,22 +86,6 @@ Before you begin, please ensure you have met the following requirements:
 5. **Git (Optional, for contributors):**
   - If you plan to contribute to the project, it's recommended to have Git installed on your machine.
   - Install Git by following the instructions on the [official Git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-  - Install the Flutter SDK by following the official [Flutter installation guide](https://flutter.dev/docs/get-started/install).
-
-2. **Dart SDK:**
-- Flutter relies on the Dart programming language. Make sure you have the Dart SDK installed, which usually comes bundled with Flutter.
-
-3. **IDE (Integrated Development Environment):**
-- We recommend using [Visual Studio Code](https://code.visualstudio.com/) with the [Flutter and Dart extensions](https://flutter.dev/docs/get-started/editor?tab=vscode) for an optimal development experience.
-- Alternatively, you can use [Android Studio](https://developer.android.com/studio) with the Flutter plugin.
-
-4. **Device/Emulator:**
-- To run and test your Flutter app, you need either a physical device connected to your development machine or a configured emulator.
-- Follow the instructions in the [Flutter documentation](https://flutter.dev/docs/get-started/install) to set up a device or emulator.
-
-5. **Git (Optional, for contributors):**
-- If you plan to contribute to the project, it's recommended to have Git installed on your machine.
-- Install Git by following the instructions on the [official Git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 ### Installation
 ```bash
