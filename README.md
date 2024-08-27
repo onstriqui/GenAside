@@ -7,6 +7,7 @@ It aims at providing detailed information on how these brands exactly support is
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [UI Design](#ui-design)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
