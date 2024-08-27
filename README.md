@@ -90,5 +90,15 @@ Before you begin, please ensure you have met the following requirements:
 ### Installation
 ```bash
 # Example installation commands
+
+# Clone the repository
 git clone https://github.com/onstriqui/GenAside.git
 
+# Navigate to the project directory
+cd GenAside
+
+# Get the Flutter dependencies
+flutter pub get
+
+# Run the project
+flutter run
