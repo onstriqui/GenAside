@@ -54,7 +54,7 @@ GenAside is an application designed to empower individuals to make informed and 
 
 ### Join GenAside and Make Your Choices Count!
 
-- GenAside invites users to join a community of conscious consumers, advocating for justice through their purchasing decisions. Together, we can make a meaningful impact and contribute to positive change in the world. Download GenAside today and be part of the movement for ethical and responsible consumerism.
+GenAside invites users to join a community of conscious consumers, advocating for justice through their purchasing decisions. Together, we can make a meaningful impact and contribute to positive change in the world. Download GenAside today and be part of the movement for ethical and responsible consumerism.
 
 ## UI Design
 For this project, we used Figma to have a mockup of the UI/UX Design.
