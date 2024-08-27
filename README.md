@@ -1,7 +1,7 @@
 # GenAside
 
 GenAside is an application that aims to help people identify and find alternatives to brands that supports the Palestinian occupation.
-It aims at providing detailed information on how these brands exactly support israel, and the effect of the boycott on these companies.
+It aims at providing detailed information on how these brands exactly support Israel, and the effect of the boycott on these companies.
 
 ## Table of Contents
 
@@ -41,7 +41,6 @@ Users gain a clear understanding of how their choices contribute to collective e
 **Why GenAside:**
 
 - Transparency and Accountability:
-<<<<<<< HEAD
 GenAside operates on the principles of transparency and accountability, aiming to hold brands responsible for their actions.
 
 - Consumer Empowerment:
@@ -52,17 +51,6 @@ The app serves as a platform for collective advocacy, allowing users to contribu
 
 - Educational Resource:
 GenAside acts as an educational resource, fostering awareness and understanding of the complexities surrounding the Israeli-Palestinian conflict.
-=======
-  GenAside operates on the principles of transparency and accountability, aiming to hold brands responsible for their actions.
-
-- Consumer Empowerment:
-  By providing detailed information, GenAside empowers consumers to align their purchasing decisions with their values, fostering a sense of agency.
-
-- Collective Advocacy:
-  The app serves as a platform for collective advocacy, allowing users to contribute to positive change through their everyday choices.
-
-- Educational Resource:
-  GenAside acts as an educational resource, fostering awareness and understanding of the complexities surrounding the Israeli-Palestinian conflict.
 
 **Join GenAside and Make Your Choices Count!**
 
@@ -70,7 +58,7 @@ GenAside invites users to join a community of conscious consumers, advocating fo
 
 ## UI Design
 For this project, we used Figma to have a mockup of the UI/UX Design.
-You can access the figma template in via [this link](https://www.figma.com/proto/RrVgXYD1drzgJq9wyqXeca/GenAside?type=design&node-id=67-47&t=cllQVyJGpb1Y0vfi-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=67%3A47&mode=design).
+You can access the figma template via [this link](https://www.figma.com/proto/RrVgXYD1drzgJq9wyqXeca/GenAside?type=design&node-id=67-47&t=cllQVyJGpb1Y0vfi-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=67%3A47&mode=design).
 Also we have below the sample images of the UI design that integrates elements that characterize the Palestinian country all in a minimalistic and easy to use style.
 ![](GenAsidefinale/assets/ui1.png)
 ![](GenAsidefinale/assets/ui2.png)
@@ -82,7 +70,6 @@ Also we have below the sample images of the UI design that integrates elements t
 Before you begin, please ensure you have met the following requirements:
 
 1. **Flutter SDK:**
-<<<<<<< HEAD
   - Install the Flutter SDK by following the official [Flutter installation guide](https://flutter.dev/docs/get-started/install).
 
 2. **Dart SDK:**
@@ -99,8 +86,7 @@ Before you begin, please ensure you have met the following requirements:
 5. **Git (Optional, for contributors):**
   - If you plan to contribute to the project, it's recommended to have Git installed on your machine.
   - Install Git by following the instructions on the [official Git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-=======
-- Install the Flutter SDK by following the official [Flutter installation guide](https://flutter.dev/docs/get-started/install).
+  - Install the Flutter SDK by following the official [Flutter installation guide](https://flutter.dev/docs/get-started/install).
 
 2. **Dart SDK:**
 - Flutter relies on the Dart programming language. Make sure you have the Dart SDK installed, which usually comes bundled with Flutter.
@@ -116,8 +102,6 @@ Before you begin, please ensure you have met the following requirements:
 5. **Git (Optional, for contributors):**
 - If you plan to contribute to the project, it's recommended to have Git installed on your machine.
 - Install Git by following the instructions on the [official Git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-
-
 
 ### Installation
 ```bash
