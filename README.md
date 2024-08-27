@@ -17,39 +17,37 @@ GenAside is an application designed to empower individuals to make informed and 
 
 ## Features
 
-Key Features:
+1. **Brand Identification:**
 
-**Brand Identification:**
+- GenAside helps users identify brands linked to the Israeli occupation of Palestine.
+- It employs a comprehensive database that highlights companies with documented connections to Israel.
 
-GenAside helps users identify brands linked to the Israeli occupation of Palestine.
-It employs a comprehensive database that highlights companies with documented connections to Israel.
+2. **Detailed Information:**
 
-**Detailed Information:**
+- The application provides detailed insights into how these brands support Israel.
+- Users can access information on financial contributions, partnerships, and other forms of support, offering a nuanced understanding.
 
-The application provides detailed insights into how these brands support Israel.
-Users can access information on financial contributions, partnerships, and other forms of support, offering a nuanced understanding.
+3. **Alternatives Suggestion:**
 
-**Alternatives Suggestion:**
+- GenAside doesn't just stop at highlighting problematic brands; it offers users ethical alternatives.
+- Users can discover and support brands committed to ethical business practices and social responsibility.
 
-GenAside doesn't just stop at highlighting problematic brands; it offers users ethical alternatives.
-Users can discover and support brands committed to ethical business practices and social responsibility.
-Boycott Impact Analysis:
-
-The app goes beyond information dissemination; it analyzes and showcases the potential impact of the boycott on these companies.
-Users gain a clear understanding of how their choices contribute to collective efforts in advocating for justice.
+_Boycott Impact Analysis:_
+- The app goes beyond information dissemination; it analyzes and showcases the potential impact of the boycott on these companies.
+- Users gain a clear understanding of how their choices contribute to collective efforts in advocating for justice.
 
 **Why GenAside:**
 
-- Transparency and Accountability:
+- _Transparency and Accountability:_
 GenAside operates on the principles of transparency and accountability, aiming to hold brands responsible for their actions.
 
-- Consumer Empowerment:
+- _Consumer Empowerment:_
 By providing detailed information, GenAside empowers consumers to align their purchasing decisions with their values, fostering a sense of agency.
 
-- Collective Advocacy:
+- _Collective Advocacy:_
 The app serves as a platform for collective advocacy, allowing users to contribute to positive change through their everyday choices.
 
-- Educational Resource:
+- _Educational Resource:_
 GenAside acts as an educational resource, fostering awareness and understanding of the complexities surrounding the Israeli-Palestinian conflict.
 
 **Join GenAside and Make Your Choices Count!**
