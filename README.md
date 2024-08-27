@@ -36,7 +36,7 @@ _Boycott Impact Analysis:_
 - The app goes beyond information dissemination; it analyzes and showcases the potential impact of the boycott on these companies.
 - Users gain a clear understanding of how their choices contribute to collective efforts in advocating for justice.
 
-**Why GenAside:**
+4. **Why GenAside:**
 
 - _Transparency and Accountability:_
 GenAside operates on the principles of transparency and accountability, aiming to hold brands responsible for their actions.
@@ -50,9 +50,9 @@ The app serves as a platform for collective advocacy, allowing users to contribu
 - _Educational Resource:_
 GenAside acts as an educational resource, fostering awareness and understanding of the complexities surrounding the Israeli-Palestinian conflict.
 
-**Join GenAside and Make Your Choices Count!**
+5. **Join GenAside and Make Your Choices Count!**
 
-GenAside invites users to join a community of conscious consumers, advocating for justice through their purchasing decisions. Together, we can make a meaningful impact and contribute to positive change in the world. Download GenAside today and be part of the movement for ethical and responsible consumerism.
+- GenAside invites users to join a community of conscious consumers, advocating for justice through their purchasing decisions. Together, we can make a meaningful impact and contribute to positive change in the world. Download GenAside today and be part of the movement for ethical and responsible consumerism.
 
 ## UI Design
 For this project, we used Figma to have a mockup of the UI/UX Design.
